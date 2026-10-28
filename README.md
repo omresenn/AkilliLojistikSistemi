@@ -15,7 +15,7 @@
 7. [Birim Testleri (Unit Tests)](#-birim-testleri-unit-tests)
 8. [Kalıcı Veri Saklama (Persistence)](#-kalıcı-veri-saklama-persistence)
 9. [Projeyi Çalıştırma ve Test Etme](#-projeyi-çalıştırma-ve-test-etme)
-10. [10 Dakikalık Sunum Videosu Senaryosu (Video Script)](#-10-dakikalık-sunum-videosu-senaryosu-video-script)
+10. [Proje Takımı](#-proje-takımı)
 
 ---
 
@@ -387,47 +387,6 @@ java -Dfile.encoding=UTF-8 -cp bin com.lojistik.LogisticsUnitTestSuite
 2. `src` klasörünü `Sources Root` olarak işaretleyin.
 3. `com.lojistik.Main` sınıfındaki yeşil `Run` butonuna basarak uygulamayı başlatın.
 4. `com.lojistik.LogisticsUnitTestSuite` sınıfını çalıştırarak test sonuçlarını görün.
-
----
-
-## 🎬 10 Dakikalık Sunum Videosu Senaryosu (Video Script)
-
-> [!TIP]
-> Ödev kuralında istenen **en fazla 10 dakikalık sunum videosunu** çekerken aşağıdaki dakika dakika akışı takip edebilirsiniz. Bu metin, videonuzun akıcı ve hocanın aradığı tüm kriterleri eksiksiz gösteren bir sunum olmasını sağlar.
-
-```
-00:00 - 01:30 | GİRİŞ VE PROJE ÖZETİ
-- "Merhaba hocam, bugün Nesneye Yönelik Programlama dönem projemiz olan 'Akıllı Lojistik Sistemi'ni sunacağız."
-- Grup üyelerini tanıtın (proje_takimi.txt dosyasını ekranda gösterin).
-- "Projemizin amacı, dağıtım araçlarının ağırlık ve hacim kapasitelerine göre paketleri en optimum şekilde paylaştırmak ve Dijkstra algoritması ile en kısa teslimat rotasını hesaplamaktır."
-
-01:30 - 03:30 | OOP VE MİMARİ TASARIM
-- Modelleri gösterin: Vehicle (Truck, Van, Motorcycle) ve Package (Standard, Express, Fragile).
-- Kalıtım, Soyutlama, Kapsülleme ve Çok Biçimlilik metotlarını (calculateOperationalCost, calculateShippingFee) kod üzerinden açıklayın.
-- Negatif değer girildiğinde fırlatılan IllegalArgumentException veri doğrulama mekanizmasını gösterin.
-
-03:30 - 05:00 | SOLID VE TASARIM KALIPLARI
-- SOLID prensiplerinin (SRP, OCP, LSP, ISP, DIP) sınıflara nasıl dağıtıldığını açıklayın.
-- Strategy Pattern: IRouteOptimizer ve IPackageDistributor arayüzlerini ve algoritma bağımsızlığını anlatın.
-- Factory Method: VehicleFactory ve PackageFactory ile nesne üretiminin tek noktadan yönetilmesini gösterin.
-- Observer Pattern: DeliveryTrackingManager ve ConsoleNotificationObserver ile durum değişikliklerinin canlı yayılmasını anlatın.
-
-05:00 - 07:00 | ALGORİTMALARIN ÇALIŞMA MANTIĞI
-- DijkstraRouteOptimizer.java dosyasını açın: Min-PriorityQueue ile O((V + E) log V) sürede en kısa yolun ve ara durakların nasıl hesaplandığını gösterin.
-- GreedyKnapsackDistributor.java dosyasını açın: Paketlerin öncelik puanı (Ekspres > Kırılabilir > Standart) ve kargo değer yoğunluğuna göre araç kapasitelerine nasıl yerleştirildiğini açıklayın.
-
-07:00 - 09:00 | ÇALIŞAN UYGULAMA DEMOSU (CANLI KONSOL)
-- run.bat veya Main.java'yı çalıştırın.
-- [1] Paketleri ve [2] Araç filosunu listeleyin.
-- [4] Menüsünden Dijkstra ile iki transfer merkezi arasında rota hesaplatın (örn. Gebze'den Beşiktaş'a en kısa rota ve tahmini seyahat süresi).
-- [5] Menüsünden Greedy Knapsack Paket Dağıtımını çalıştırın ve kargoların araçlara doluluk oranlarıyla nasıl yüklendiğini gösterin.
-- [6] Menüsünden Dağıtım Simülasyonunu başlatın; ekranda tetiklenen canlı Observer bildirimlerini ("Kurye yola çıktı", "Teslim edildi") hocaya gösterin.
-- [8] Kalıcı JSON dosyasına (data/logistics_data.json) verilerin anlık yazıldığını dosya üzerinden gösterin.
-
-09:00 - 10:00 | BİRİM TESTLERİ VE KAPANIŞ
-- test.bat dosyasını çalıştırın veya LogisticsUnitTestSuite.java'yı çalıştırarak 10 testin de 'BAŞARILI' (10/10 Passed) geçtiğini ekranda gösterin.
-- Projenin GitHub reposunu ve grupNo.rar teslimat paketini belirterek sunumu teşekkür ederek sonlandırın.
-```
 
 ---
 
