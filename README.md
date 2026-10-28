@@ -432,4 +432,11 @@ java -Dfile.encoding=UTF-8 -cp bin com.lojistik.LogisticsUnitTestSuite
 ---
 
 ## 👥 Proje Takımı
-Bilgiler `proje_takimi.txt` dosyasında yer almaktadır.
+| Öğrenci No | Adı Soyadı | Projedeki Görevi |
+| :--- | :--- | :--- |
+| **1250505003** | Samed Aslan | Rota Optimizasyon Algoritmaları (Dijkstra), RouteGraph & Lokasyon |
+| **5250505023** | Ömer Esen | Paket Dağıtım Algoritması (Greedy Knapsack), Kapasite Yönetimi |
+| **1250505038** | Ömer Kurç | Tasarım Kalıpları (Factory Method, Strategy, Observer) |
+| **1250505030** | Hasan Çabuk | Kalıcı Veri Saklama (JSON Persistence), Repository Pattern |
+| **1250505074** | Mustafa Batın Can | Birim Testleri (Unit Test Suite), UML Sınıf Diyagramı & CLI |
+
