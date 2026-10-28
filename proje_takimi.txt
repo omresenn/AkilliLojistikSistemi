@@ -1,0 +1,39 @@
+========================================================================
+NESNEYE YÖNELİK PROGRAMLAMA PROJE ÖDEVİ - PROJE TAKIMI BİLGİLERİ
+========================================================================
+Proje Konusu: Akıllı Lojistik Sistemi (Araç kapasitesine göre paket dağıtımı ve teslimat rotalarının optimizasyonu)
+Teslim Tarihi: 29.10.2026
+
+------------------------------------------------------------------------
+GRUP ÜYELERİ LİSTESİ (En fazla 5 kişi)
+------------------------------------------------------------------------
+
+1. Üye:
+   Öğrenci Numarası : [Öğrenci Numaranızı Buraya Yazınız]
+   Adı Soyadı       : Ömer Esen
+   Projedeki Görevi : Proje Lideri, Rota Optimizasyon Algoritmaları (Dijkstra), Mimari Tasarım
+
+2. Üye:
+   Öğrenci Numarası : 20230001002
+   Adı Soyadı       : [Grup Üyesi 2 Ad Soyad]
+   Projedeki Görevi : Paket Dağıtım Algoritması (Greedy Knapsack), Araç & Paket Modelleri
+
+3. Üye:
+   Öğrenci Numarası : 20230001003
+   Adı Soyadı       : [Grup Üyesi 3 Ad Soyad]
+   Projedeki Görevi : Tasarım Kalıpları (Factory Method, Strategy, Observer) Entegrasyonu
+
+4. Üye:
+   Öğrenci Numarası : 20230001004
+   Adı Soyadı       : [Grup Üyesi 4 Ad Soyad]
+   Projedeki Görevi : Kalıcı Veri Saklama (JSON Persistence), Konsol Arayüzü (CLI) Geliştirme
+
+5. Üye:
+   Öğrenci Numarası : 20230001005
+   Adı Soyadı       : [Grup Üyesi 5 Ad Soyad]
+   Projedeki Görevi : Birim Testleri (Unit Test Suite), UML Sınıf Diyagramı ve Dokümantasyon
+
+========================================================================
+NOT: Grup tek kişi veya 5 kişiden daha az ise kullanılmayan üye satırlarını 
+silebilir veya kendi bilgilerinize göre güncelleyebilirsiniz.
+========================================================================

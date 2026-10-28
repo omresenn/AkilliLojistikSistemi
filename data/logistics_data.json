@@ -1,0 +1,32 @@
+{
+  "locations": [
+    {"id": "LOC_01", "name": "Gebze Ana Lojistik Üssü", "city": "Kocaeli", "district": "Gebze"},
+    {"id": "LOC_02", "name": "Kadıköy Dağıtım Merkezi", "city": "İstanbul", "district": "Kadıköy"},
+    {"id": "LOC_03", "name": "Ümraniye Şubesi", "city": "İstanbul", "district": "Ümraniye"},
+    {"id": "LOC_04", "name": "Beşiktaş Transfer Noktası", "city": "İstanbul", "district": "Beşiktaş"},
+    {"id": "LOC_05", "name": "Sarıyer Dağıtım Noktası", "city": "İstanbul", "district": "Sarıyer"},
+    {"id": "LOC_06", "name": "Kartal Şubesi", "city": "İstanbul", "district": "Kartal"}
+  ],
+  "roads": [
+    {"from": "LOC_01", "to": "LOC_06", "distanceKm": 22.00},
+    {"from": "LOC_02", "to": "LOC_04", "distanceKm": 14.50},
+    {"from": "LOC_02", "to": "LOC_03", "distanceKm": 11.00},
+    {"from": "LOC_02", "to": "LOC_06", "distanceKm": 18.00},
+    {"from": "LOC_03", "to": "LOC_04", "distanceKm": 16.00},
+    {"from": "LOC_03", "to": "LOC_06", "distanceKm": 20.00},
+    {"from": "LOC_03", "to": "LOC_05", "distanceKm": 23.00},
+    {"from": "LOC_04", "to": "LOC_05", "distanceKm": 17.50}
+  ],
+  "vehicles": [
+    {"id": "VEH_01", "type": "TRUCK", "plate": "34-LOG-101", "model": "Mercedes Actros", "maxWeight": 3500.0, "maxVolume": 25.00, "locationId": "LOC_01"},
+    {"id": "VEH_02", "type": "VAN", "plate": "34-LOG-202", "model": "Ford Transit", "maxWeight": 1200.0, "maxVolume": 9.00, "locationId": "LOC_02"},
+    {"id": "VEH_03", "type": "MOTORCYCLE", "plate": "34-LOG-303", "model": "Honda PCX Kurye", "maxWeight": 40.0, "maxVolume": 0.35, "locationId": "LOC_04"}
+  ],
+  "packages": [
+    {"id": "PKG_01", "type": "EXPRESS", "trackingCode": "TRK-EXP101", "sender": "Teknoloji A.Ş.", "recipient": "Ahmet Yılmaz", "destinationId": "LOC_04", "weight": 4.50, "volume": 0.0300, "baseCost": 35.00, "status": "BEKLEMEDE", "extra": "12"},
+    {"id": "PKG_02", "type": "FRAGILE", "trackingCode": "TRK-FRG202", "sender": "Kristal Züccaciye", "recipient": "Ayşe Kaya", "destinationId": "LOC_05", "weight": 12.00, "volume": 0.1200, "baseCost": 45.00, "status": "BEKLEMEDE", "extra": "75.00"},
+    {"id": "PKG_03", "type": "STANDARD", "trackingCode": "TRK-STD303", "sender": "Moda Tekstil", "recipient": "Mehmet Demir", "destinationId": "LOC_03", "weight": 28.00, "volume": 0.2500, "baseCost": 25.00, "status": "BEKLEMEDE", "extra": "0"},
+    {"id": "PKG_04", "type": "STANDARD", "trackingCode": "TRK-STD404", "sender": "Sanayi Yedek Parça", "recipient": "Can Yıldız", "destinationId": "LOC_06", "weight": 450.00, "volume": 3.2000, "baseCost": 50.00, "status": "BEKLEMEDE", "extra": "0"},
+    {"id": "PKG_05", "type": "EXPRESS", "trackingCode": "TRK-EXP505", "sender": "Eczane Deposu", "recipient": "Fatma Çelik", "destinationId": "LOC_02", "weight": 2.00, "volume": 0.0100, "baseCost": 30.00, "status": "BEKLEMEDE", "extra": "6"}
+  ]
+}
